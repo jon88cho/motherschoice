@@ -2,3 +2,6 @@
 
 [start]
 cmd = "gunicorn main:app"
+
+[phases.setup]
+nixPkgs = ["python311"]
